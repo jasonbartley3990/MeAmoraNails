@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		724BD69F2CD508B4004FB981 /* MeAmoraNailsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD69E2CD508B4004FB981 /* MeAmoraNailsApp.swift */; };
+		724BD6A12CD508B4004FB981 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6A02CD508B4004FB981 /* ContentView.swift */; };
+		724BD6A32CD508B5004FB981 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724BD6A22CD508B5004FB981 /* Assets.xcassets */; };
+		724BD6A62CD508B5004FB981 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 724BD6A52CD508B5004FB981 /* Preview Assets.xcassets */; };
+		724BD6B42CD509C8004FB981 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6B32CD509C8004FB981 /* Models.swift */; };
+		724BD6B62CD50A34004FB981 /* NailCameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6B52CD50A34004FB981 /* NailCameraViewModel.swift */; };
+		724BD6B82CD50A79004FB981 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6B72CD50A79004FB981 /* LoginViewModel.swift */; };
+		724BD6BA2CD50AE1004FB981 /* EnvironmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6B92CD50AE1004FB981 /* EnvironmentViewModel.swift */; };
+		724BD6BC2CD50B56004FB981 /* WaitingScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6BB2CD50B56004FB981 /* WaitingScreenViewModel.swift */; };
+		724BD6BE2CD50C01004FB981 /* NailResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6BD2CD50C01004FB981 /* NailResultsViewModel.swift */; };
+		724BD6C02CD50C2C004FB981 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6BF2CD50C2C004FB981 /* ProfileViewModel.swift */; };
+		724BD6C22CD50CED004FB981 /* CreateAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6C12CD50CED004FB981 /* CreateAccountViewModel.swift */; };
+		724BD6C42CD50D3F004FB981 /* RecentMeasurementsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6C32CD50D3F004FB981 /* RecentMeasurementsViewModel.swift */; };
+		724BD6C62CD50D69004FB981 /* PreviousResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6C52CD50D69004FB981 /* PreviousResultsViewModel.swift */; };
+		724BD6C82CD50DAA004FB981 /* AccountInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6C72CD50DAA004FB981 /* AccountInfoViewModel.swift */; };
+		724BD6CA2CD51E71004FB981 /* LoginAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6C92CD51E71004FB981 /* LoginAlerts.swift */; };
+		724BD6CC2CD51E94004FB981 /* CameraAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6CB2CD51E94004FB981 /* CameraAlerts.swift */; };
+		724BD6CE2CD51EB7004FB981 /* AccountCreationAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6CD2CD51EB7004FB981 /* AccountCreationAlert.swift */; };
+		724BD6D02CD51EDB004FB981 /* AccountInfoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6CF2CD51EDB004FB981 /* AccountInfoAlert.swift */; };
+		724BD6D22CD54914004FB981 /* OrangeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6D12CD54914004FB981 /* OrangeButtonView.swift */; };
+		724BD6D42CD54943004FB981 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6D32CD54943004FB981 /* LoadingView.swift */; };
+		724BD6D62CD54961004FB981 /* NoConnectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6D52CD54961004FB981 /* NoConnectionView.swift */; };
+		724BD6D82CD54980004FB981 /* SFSafari.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6D72CD54980004FB981 /* SFSafari.swift */; };
+		724BD6DA2CD549E4004FB981 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6D92CD549E4004FB981 /* APIServices.swift */; };
+		724BD6DC2CD54A11004FB981 /* KeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6DB2CD54A11004FB981 /* KeyChainManager.swift */; };
+		724BD6DE2CD54A39004FB981 /* SharedScreenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6DD2CD54A39004FB981 /* SharedScreenManager.swift */; };
+		724BD6E02CD54A64004FB981 /* SharedCoreMLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6DF2CD54A64004FB981 /* SharedCoreMLManager.swift */; };
+		724BD6E22CD555F6004FB981 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724BD6E12CD555F6004FB981 /* NetworkManager.swift */; };
+		725C4E922CD63C4D00562686 /* KeyboardNotifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4E912CD63C4D00562686 /* KeyboardNotifier.swift */; };
+		725C4E942CD63C7A00562686 /* Device+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4E932CD63C7A00562686 /* Device+extensions.swift */; };
+		725C4E962CD63CA300562686 /* Image+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4E952CD63CA300562686 /* Image+extensions.swift */; };
+		725C4E982CD63F7300562686 /* autoCaptureModelV3.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 725C4E972CD63F7300562686 /* autoCaptureModelV3.mlpackage */; };
+		725C4E9B2CD6547A00562686 /* ContainerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4E9A2CD6547A00562686 /* ContainerScreen.swift */; };
+		725C4E9D2CD654A000562686 /* TabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4E9C2CD654A000562686 /* TabBarContainerView.swift */; };
+		725C4E9F2CD655F800562686 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4E9E2CD655F800562686 /* LaunchScreen.swift */; };
+		725C4EA22CD6773A00562686 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EA12CD6773A00562686 /* LoginScreen.swift */; };
+		725C4EA42CD6777900562686 /* CreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EA32CD6777900562686 /* CreateAccountScreen.swift */; };
+		725C4EA72CD6781200562686 /* NailCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EA62CD6781200562686 /* NailCamera.swift */; };
+		725C4EA92CD6784400562686 /* NailCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EA82CD6784400562686 /* NailCameraView.swift */; };
+		725C4EAB2CD6786B00562686 /* NailCameraRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EAA2CD6786B00562686 /* NailCameraRepresentable.swift */; };
+		725C4EAD2CD6789800562686 /* SubmissionPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EAC2CD6789800562686 /* SubmissionPhotoView.swift */; };
+		725C4EAF2CD678B900562686 /* NailCameraContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EAE2CD678B900562686 /* NailCameraContainer.swift */; };
+		725C4EB12CD678DD00562686 /* ErrorPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EB02CD678DD00562686 /* ErrorPopUp.swift */; };
+		725C4EB32CD6790100562686 /* WaitingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EB22CD6790100562686 /* WaitingScreen.swift */; };
+		725C4EB52CD6792500562686 /* NailResultsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EB42CD6792500562686 /* NailResultsScreen.swift */; };
+		725C4EB92CD679AD00562686 /* Profile Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EB82CD679AD00562686 /* Profile Screen.swift */; };
+		725C4EBB2CD679F700562686 /* AccountInformationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EBA2CD679F700562686 /* AccountInformationScreen.swift */; };
+		725C4EBD2CD67A1B00562686 /* RecentMeasurementsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EBC2CD67A1B00562686 /* RecentMeasurementsScreen.swift */; };
+		725C4EBF2CD67A3F00562686 /* PreviousMeasurementScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EBE2CD67A3F00562686 /* PreviousMeasurementScreen.swift */; };
+		725C4EC12CD67A6800562686 /* MeasurementOptionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725C4EC02CD67A6800562686 /* MeasurementOptionScreen.swift */; };
+		725C4ED92CD7AE7C00562686 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 725C4ED82CD7AE7C00562686 /* GoogleService-Info.plist */; };
+		E5E4C94C5ECF597DF2273BD8 /* Pods_MeAmoraNails.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D00CAAE2A09281BD367ED45D /* Pods_MeAmoraNails.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B7E531B8AC5CFBEBDF05CE2 /* Pods-MeAmoraNails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeAmoraNails.debug.xcconfig"; path = "Target Support Files/Pods-MeAmoraNails/Pods-MeAmoraNails.debug.xcconfig"; sourceTree = "<group>"; };
+		724BD69B2CD508B4004FB981 /* MeAmoraNails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeAmoraNails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		724BD69E2CD508B4004FB981 /* MeAmoraNailsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeAmoraNailsApp.swift; sourceTree = "<group>"; };
+		724BD6A02CD508B4004FB981 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		724BD6A22CD508B5004FB981 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		724BD6A52CD508B5004FB981 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		724BD6B32CD509C8004FB981 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		724BD6B52CD50A34004FB981 /* NailCameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailCameraViewModel.swift; sourceTree = "<group>"; };
+		724BD6B72CD50A79004FB981 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		724BD6B92CD50AE1004FB981 /* EnvironmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentViewModel.swift; sourceTree = "<group>"; };
+		724BD6BB2CD50B56004FB981 /* WaitingScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingScreenViewModel.swift; sourceTree = "<group>"; };
+		724BD6BD2CD50C01004FB981 /* NailResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailResultsViewModel.swift; sourceTree = "<group>"; };
+		724BD6BF2CD50C2C004FB981 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		724BD6C12CD50CED004FB981 /* CreateAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewModel.swift; sourceTree = "<group>"; };
+		724BD6C32CD50D3F004FB981 /* RecentMeasurementsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMeasurementsViewModel.swift; sourceTree = "<group>"; };
+		724BD6C52CD50D69004FB981 /* PreviousResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousResultsViewModel.swift; sourceTree = "<group>"; };
+		724BD6C72CD50DAA004FB981 /* AccountInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoViewModel.swift; sourceTree = "<group>"; };
+		724BD6C92CD51E71004FB981 /* LoginAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAlerts.swift; sourceTree = "<group>"; };
+		724BD6CB2CD51E94004FB981 /* CameraAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAlerts.swift; sourceTree = "<group>"; };
+		724BD6CD2CD51EB7004FB981 /* AccountCreationAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountCreationAlert.swift; sourceTree = "<group>"; };
+		724BD6CF2CD51EDB004FB981 /* AccountInfoAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoAlert.swift; sourceTree = "<group>"; };
+		724BD6D12CD54914004FB981 /* OrangeButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeButtonView.swift; sourceTree = "<group>"; };
+		724BD6D32CD54943004FB981 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		724BD6D52CD54961004FB981 /* NoConnectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoConnectionView.swift; sourceTree = "<group>"; };
+		724BD6D72CD54980004FB981 /* SFSafari.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSafari.swift; sourceTree = "<group>"; };
+		724BD6D92CD549E4004FB981 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		724BD6DB2CD54A11004FB981 /* KeyChainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainManager.swift; sourceTree = "<group>"; };
+		724BD6DD2CD54A39004FB981 /* SharedScreenManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedScreenManager.swift; sourceTree = "<group>"; };
+		724BD6DF2CD54A64004FB981 /* SharedCoreMLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCoreMLManager.swift; sourceTree = "<group>"; };
+		724BD6E12CD555F6004FB981 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		725C4E912CD63C4D00562686 /* KeyboardNotifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardNotifier.swift; sourceTree = "<group>"; };
+		725C4E932CD63C7A00562686 /* Device+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+extensions.swift"; sourceTree = "<group>"; };
+		725C4E952CD63CA300562686 /* Image+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+extensions.swift"; sourceTree = "<group>"; };
+		725C4E972CD63F7300562686 /* autoCaptureModelV3.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = autoCaptureModelV3.mlpackage; sourceTree = "<group>"; };
+		725C4E9A2CD6547A00562686 /* ContainerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerScreen.swift; sourceTree = "<group>"; };
+		725C4E9C2CD654A000562686 /* TabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarContainerView.swift; sourceTree = "<group>"; };
+		725C4E9E2CD655F800562686 /* LaunchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		725C4EA12CD6773A00562686 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		725C4EA32CD6777900562686 /* CreateAccountScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountScreen.swift; sourceTree = "<group>"; };
+		725C4EA62CD6781200562686 /* NailCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailCamera.swift; sourceTree = "<group>"; };
+		725C4EA82CD6784400562686 /* NailCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailCameraView.swift; sourceTree = "<group>"; };
+		725C4EAA2CD6786B00562686 /* NailCameraRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailCameraRepresentable.swift; sourceTree = "<group>"; };
+		725C4EAC2CD6789800562686 /* SubmissionPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmissionPhotoView.swift; sourceTree = "<group>"; };
+		725C4EAE2CD678B900562686 /* NailCameraContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailCameraContainer.swift; sourceTree = "<group>"; };
+		725C4EB02CD678DD00562686 /* ErrorPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPopUp.swift; sourceTree = "<group>"; };
+		725C4EB22CD6790100562686 /* WaitingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingScreen.swift; sourceTree = "<group>"; };
+		725C4EB42CD6792500562686 /* NailResultsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailResultsScreen.swift; sourceTree = "<group>"; };
+		725C4EB82CD679AD00562686 /* Profile Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Profile Screen.swift"; sourceTree = "<group>"; };
+		725C4EBA2CD679F700562686 /* AccountInformationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInformationScreen.swift; sourceTree = "<group>"; };
+		725C4EBC2CD67A1B00562686 /* RecentMeasurementsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMeasurementsScreen.swift; sourceTree = "<group>"; };
+		725C4EBE2CD67A3F00562686 /* PreviousMeasurementScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousMeasurementScreen.swift; sourceTree = "<group>"; };
+		725C4EC02CD67A6800562686 /* MeasurementOptionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementOptionScreen.swift; sourceTree = "<group>"; };
+		725C4ED82CD7AE7C00562686 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93049B0EE42F8D9146AAA709 /* Pods-MeAmoraNails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeAmoraNails.release.xcconfig"; path = "Target Support Files/Pods-MeAmoraNails/Pods-MeAmoraNails.release.xcconfig"; sourceTree = "<group>"; };
+		D00CAAE2A09281BD367ED45D /* Pods_MeAmoraNails.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeAmoraNails.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		724BD6982CD508B4004FB981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5E4C94C5ECF597DF2273BD8 /* Pods_MeAmoraNails.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		724BD6922CD508B4004FB981 = {
+			isa = PBXGroup;
+			children = (
+				725C4E972CD63F7300562686 /* autoCaptureModelV3.mlpackage */,
+				724BD69D2CD508B4004FB981 /* MeAmoraNails */,
+				724BD69C2CD508B4004FB981 /* Products */,
+				A0F33C1CC262CAE6FD58D9C6 /* Pods */,
+				DB5F101DDEBCBB6997E4DA45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		724BD69C2CD508B4004FB981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				724BD69B2CD508B4004FB981 /* MeAmoraNails.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		724BD69D2CD508B4004FB981 /* MeAmoraNails */ = {
+			isa = PBXGroup;
+			children = (
+				725C4ED82CD7AE7C00562686 /* GoogleService-Info.plist */,
+				725C4E902CD63C3F00562686 /* Helpers */,
+				724BD6B22CD5094D004FB981 /* Alerts */,
+				724BD6B02CD5093B004FB981 /* Models */,
+				724BD6AF2CD50930004FB981 /* ViewModels */,
+				724BD6AE2CD5092A004FB981 /* Views */,
+				724BD6AD2CD50920004FB981 /* Managers */,
+				724BD6AC2CD50916004FB981 /* Screens */,
+				724BD69E2CD508B4004FB981 /* MeAmoraNailsApp.swift */,
+				724BD6A02CD508B4004FB981 /* ContentView.swift */,
+				724BD6A22CD508B5004FB981 /* Assets.xcassets */,
+				724BD6A42CD508B5004FB981 /* Preview Content */,
+			);
+			path = MeAmoraNails;
+			sourceTree = "<group>";
+		};
+		724BD6A42CD508B5004FB981 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				724BD6A52CD508B5004FB981 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		724BD6AC2CD50916004FB981 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				725C4EB72CD6799F00562686 /* Account Info */,
+				725C4EA52CD677DE00562686 /* Camera */,
+				725C4EA02CD6565300562686 /* Login */,
+				725C4E992CD6546900562686 /* Launch */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		724BD6AD2CD50920004FB981 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				724BD6D92CD549E4004FB981 /* APIServices.swift */,
+				724BD6DB2CD54A11004FB981 /* KeyChainManager.swift */,
+				724BD6DD2CD54A39004FB981 /* SharedScreenManager.swift */,
+				724BD6DF2CD54A64004FB981 /* SharedCoreMLManager.swift */,
+				724BD6E12CD555F6004FB981 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		724BD6AE2CD5092A004FB981 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				724BD6D12CD54914004FB981 /* OrangeButtonView.swift */,
+				724BD6D32CD54943004FB981 /* LoadingView.swift */,
+				724BD6D52CD54961004FB981 /* NoConnectionView.swift */,
+				724BD6D72CD54980004FB981 /* SFSafari.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		724BD6AF2CD50930004FB981 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				724BD6B52CD50A34004FB981 /* NailCameraViewModel.swift */,
+				724BD6B72CD50A79004FB981 /* LoginViewModel.swift */,
+				724BD6B92CD50AE1004FB981 /* EnvironmentViewModel.swift */,
+				724BD6BB2CD50B56004FB981 /* WaitingScreenViewModel.swift */,
+				724BD6BD2CD50C01004FB981 /* NailResultsViewModel.swift */,
+				724BD6BF2CD50C2C004FB981 /* ProfileViewModel.swift */,
+				724BD6C12CD50CED004FB981 /* CreateAccountViewModel.swift */,
+				724BD6C32CD50D3F004FB981 /* RecentMeasurementsViewModel.swift */,
+				724BD6C52CD50D69004FB981 /* PreviousResultsViewModel.swift */,
+				724BD6C72CD50DAA004FB981 /* AccountInfoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		724BD6B02CD5093B004FB981 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				724BD6B32CD509C8004FB981 /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		724BD6B22CD5094D004FB981 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				724BD6C92CD51E71004FB981 /* LoginAlerts.swift */,
+				724BD6CB2CD51E94004FB981 /* CameraAlerts.swift */,
+				724BD6CD2CD51EB7004FB981 /* AccountCreationAlert.swift */,
+				724BD6CF2CD51EDB004FB981 /* AccountInfoAlert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		725C4E902CD63C3F00562686 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				725C4E912CD63C4D00562686 /* KeyboardNotifier.swift */,
+				725C4E932CD63C7A00562686 /* Device+extensions.swift */,
+				725C4E952CD63CA300562686 /* Image+extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		725C4E992CD6546900562686 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				725C4E9A2CD6547A00562686 /* ContainerScreen.swift */,
+				725C4E9C2CD654A000562686 /* TabBarContainerView.swift */,
+				725C4E9E2CD655F800562686 /* LaunchScreen.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		725C4EA02CD6565300562686 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				725C4EA12CD6773A00562686 /* LoginScreen.swift */,
+				725C4EA32CD6777900562686 /* CreateAccountScreen.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		725C4EA52CD677DE00562686 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				725C4EA62CD6781200562686 /* NailCamera.swift */,
+				725C4EA82CD6784400562686 /* NailCameraView.swift */,
+				725C4EAA2CD6786B00562686 /* NailCameraRepresentable.swift */,
+				725C4EAC2CD6789800562686 /* SubmissionPhotoView.swift */,
+				725C4EAE2CD678B900562686 /* NailCameraContainer.swift */,
+				725C4EB02CD678DD00562686 /* ErrorPopUp.swift */,
+				725C4EB22CD6790100562686 /* WaitingScreen.swift */,
+				725C4EB42CD6792500562686 /* NailResultsScreen.swift */,
+				725C4EC02CD67A6800562686 /* MeasurementOptionScreen.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		725C4EB72CD6799F00562686 /* Account Info */ = {
+			isa = PBXGroup;
+			children = (
+				725C4EB82CD679AD00562686 /* Profile Screen.swift */,
+				725C4EBA2CD679F700562686 /* AccountInformationScreen.swift */,
+				725C4EBC2CD67A1B00562686 /* RecentMeasurementsScreen.swift */,
+				725C4EBE2CD67A3F00562686 /* PreviousMeasurementScreen.swift */,
+			);
+			path = "Account Info";
+			sourceTree = "<group>";
+		};
+		A0F33C1CC262CAE6FD58D9C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B7E531B8AC5CFBEBDF05CE2 /* Pods-MeAmoraNails.debug.xcconfig */,
+				93049B0EE42F8D9146AAA709 /* Pods-MeAmoraNails.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB5F101DDEBCBB6997E4DA45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D00CAAE2A09281BD367ED45D /* Pods_MeAmoraNails.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		724BD69A2CD508B4004FB981 /* MeAmoraNails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 724BD6A92CD508B5004FB981 /* Build configuration list for PBXNativeTarget "MeAmoraNails" */;
+			buildPhases = (
+				72039BDB1E30662EC904E6E5 /* [CP] Check Pods Manifest.lock */,
+				724BD6972CD508B4004FB981 /* Sources */,
+				724BD6982CD508B4004FB981 /* Frameworks */,
+				724BD6992CD508B4004FB981 /* Resources */,
+				C6937889BD7DFE9397D1B8AD /* [CP] Embed Pods Frameworks */,
+				725C4EDA2CD7C0D500562686 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeAmoraNails;
+			productName = MeAmoraNails;
+			productReference = 724BD69B2CD508B4004FB981 /* MeAmoraNails.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		724BD6932CD508B4004FB981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					724BD69A2CD508B4004FB981 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 724BD6962CD508B4004FB981 /* Build configuration list for PBXProject "MeAmoraNails" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 724BD6922CD508B4004FB981;
+			productRefGroup = 724BD69C2CD508B4004FB981 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				724BD69A2CD508B4004FB981 /* MeAmoraNails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		724BD6992CD508B4004FB981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724BD6A62CD508B5004FB981 /* Preview Assets.xcassets in Resources */,
+				725C4ED92CD7AE7C00562686 /* GoogleService-Info.plist in Resources */,
+				724BD6A32CD508B5004FB981 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72039BDB1E30662EC904E6E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeAmoraNails-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725C4EDA2CD7C0D500562686 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${PRODUCT_NAME}",
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist",
+				"$(TARGET_BUILD_DIR)/$(UNLOCALIZED_RESOURCES_FOLDER_PATH)/GoogleService-Info.plist",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
+		C6937889BD7DFE9397D1B8AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeAmoraNails/Pods-MeAmoraNails-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeAmoraNails/Pods-MeAmoraNails-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeAmoraNails/Pods-MeAmoraNails-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		724BD6972CD508B4004FB981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				724BD6C62CD50D69004FB981 /* PreviousResultsViewModel.swift in Sources */,
+				725C4EB32CD6790100562686 /* WaitingScreen.swift in Sources */,
+				725C4EAB2CD6786B00562686 /* NailCameraRepresentable.swift in Sources */,
+				725C4E9B2CD6547A00562686 /* ContainerScreen.swift in Sources */,
+				725C4E9F2CD655F800562686 /* LaunchScreen.swift in Sources */,
+				725C4E942CD63C7A00562686 /* Device+extensions.swift in Sources */,
+				724BD6D82CD54980004FB981 /* SFSafari.swift in Sources */,
+				724BD6C42CD50D3F004FB981 /* RecentMeasurementsViewModel.swift in Sources */,
+				724BD6B42CD509C8004FB981 /* Models.swift in Sources */,
+				724BD6B62CD50A34004FB981 /* NailCameraViewModel.swift in Sources */,
+				725C4EBF2CD67A3F00562686 /* PreviousMeasurementScreen.swift in Sources */,
+				724BD6D22CD54914004FB981 /* OrangeButtonView.swift in Sources */,
+				725C4EA42CD6777900562686 /* CreateAccountScreen.swift in Sources */,
+				725C4EA92CD6784400562686 /* NailCameraView.swift in Sources */,
+				724BD6D02CD51EDB004FB981 /* AccountInfoAlert.swift in Sources */,
+				724BD6CA2CD51E71004FB981 /* LoginAlerts.swift in Sources */,
+				725C4EBD2CD67A1B00562686 /* RecentMeasurementsScreen.swift in Sources */,
+				724BD6BA2CD50AE1004FB981 /* EnvironmentViewModel.swift in Sources */,
+				725C4E962CD63CA300562686 /* Image+extensions.swift in Sources */,
+				724BD6C02CD50C2C004FB981 /* ProfileViewModel.swift in Sources */,
+				725C4EBB2CD679F700562686 /* AccountInformationScreen.swift in Sources */,
+				724BD6BC2CD50B56004FB981 /* WaitingScreenViewModel.swift in Sources */,
+				724BD6DC2CD54A11004FB981 /* KeyChainManager.swift in Sources */,
+				725C4EC12CD67A6800562686 /* MeasurementOptionScreen.swift in Sources */,
+				724BD6A12CD508B4004FB981 /* ContentView.swift in Sources */,
+				724BD6DA2CD549E4004FB981 /* APIServices.swift in Sources */,
+				724BD6C22CD50CED004FB981 /* CreateAccountViewModel.swift in Sources */,
+				724BD6CC2CD51E94004FB981 /* CameraAlerts.swift in Sources */,
+				725C4EB52CD6792500562686 /* NailResultsScreen.swift in Sources */,
+				724BD6E22CD555F6004FB981 /* NetworkManager.swift in Sources */,
+				724BD6D62CD54961004FB981 /* NoConnectionView.swift in Sources */,
+				724BD6B82CD50A79004FB981 /* LoginViewModel.swift in Sources */,
+				725C4EA72CD6781200562686 /* NailCamera.swift in Sources */,
+				725C4EA22CD6773A00562686 /* LoginScreen.swift in Sources */,
+				725C4EAD2CD6789800562686 /* SubmissionPhotoView.swift in Sources */,
+				724BD69F2CD508B4004FB981 /* MeAmoraNailsApp.swift in Sources */,
+				725C4EB92CD679AD00562686 /* Profile Screen.swift in Sources */,
+				724BD6BE2CD50C01004FB981 /* NailResultsViewModel.swift in Sources */,
+				724BD6C82CD50DAA004FB981 /* AccountInfoViewModel.swift in Sources */,
+				725C4E922CD63C4D00562686 /* KeyboardNotifier.swift in Sources */,
+				724BD6D42CD54943004FB981 /* LoadingView.swift in Sources */,
+				724BD6DE2CD54A39004FB981 /* SharedScreenManager.swift in Sources */,
+				724BD6E02CD54A64004FB981 /* SharedCoreMLManager.swift in Sources */,
+				725C4EAF2CD678B900562686 /* NailCameraContainer.swift in Sources */,
+				725C4E982CD63F7300562686 /* autoCaptureModelV3.mlpackage in Sources */,
+				725C4E9D2CD654A000562686 /* TabBarContainerView.swift in Sources */,
+				724BD6CE2CD51EB7004FB981 /* AccountCreationAlert.swift in Sources */,
+				725C4EB12CD678DD00562686 /* ErrorPopUp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		724BD6A72CD508B5004FB981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		724BD6A82CD508B5004FB981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		724BD6AA2CD508B5004FB981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7E531B8AC5CFBEBDF05CE2 /* Pods-MeAmoraNails.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"MeAmoraNails/Preview Content\"";
+				DEVELOPMENT_TEAM = 7G9466WSYH;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "MeAmora Nails";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow MeAmora access to camera in order to take photos for measurement.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meamora.meamoranails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		724BD6AB2CD508B5004FB981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93049B0EE42F8D9146AAA709 /* Pods-MeAmoraNails.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"MeAmoraNails/Preview Content\"";
+				DEVELOPMENT_TEAM = 7G9466WSYH;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "MeAmora Nails";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow MeAmora access to camera in order to take photos for measurement.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.meamora.meamoranails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		724BD6962CD508B4004FB981 /* Build configuration list for PBXProject "MeAmoraNails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724BD6A72CD508B5004FB981 /* Debug */,
+				724BD6A82CD508B5004FB981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		724BD6A92CD508B5004FB981 /* Build configuration list for PBXNativeTarget "MeAmoraNails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				724BD6AA2CD508B5004FB981 /* Debug */,
+				724BD6AB2CD508B5004FB981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 724BD6932CD508B4004FB981 /* Project object */;
+}
