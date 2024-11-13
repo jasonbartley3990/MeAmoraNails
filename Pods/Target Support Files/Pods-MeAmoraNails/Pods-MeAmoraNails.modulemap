@@ -1,0 +1,6 @@
+framework module Pods_MeAmoraNails {
+  umbrella header "Pods-MeAmoraNails-umbrella.h"
+
+  export *
+  module * { export * }
+}
